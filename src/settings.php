@@ -17,10 +17,10 @@ return [
         ],
 
         'db' => [
-            'host' => MYSQL_ADDON_HOST,
-            'dbname' => MYSQL_ADDON_DB,
-            'user' => MYSQL_ADDON_USER,
-            'pass' => MYSQL_ADDON_PASSWORD
+            'host' => $_ENV['MYSQL_ADDON_HOST'],
+            'dbname' => $_ENV['MYSQL_ADDON_DB'],
+            'user' => $_ENV['MYSQL_ADDON_USER'],
+            'pass' => $_ENV['MYSQL_ADDON_PASSWORD']
         ]
     ],
 ];
